@@ -13,4 +13,6 @@ use App\Http\Controllers\Guest\PageController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
 Route::get('/', [PageController::class, "home"])->name("home");
