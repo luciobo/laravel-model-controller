@@ -7,8 +7,16 @@ use Illuminate\Http\Request;
 use App\Models\Movie;
 
 class PageController extends Controller {
+    
     function home() {
-        return view('home');
+
+        $movie = Movie::all();
+
+        dump($movie);
+
+        return view('home',[
+            "movie" => $movie,
+        ]);
     }
 
 }
