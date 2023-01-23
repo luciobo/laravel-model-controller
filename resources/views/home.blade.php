@@ -1,4 +1,4 @@
-<h1>ciao ci sei sei connesso?<body>
+
     @extends('layouts.app')
 
     @section('content')
@@ -10,7 +10,7 @@
                     @foreach ($movie as $movieElement)
                         <div class="col-2">
                             <div class="card bg-dark text-light">
-                                <img src="" class="card-img-top" alt="...">
+                                <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
                                 <div class="card-body p-0 py-3">
                                     <h3 class="card-title">Titolo: {{ $movieElement -> title }}</h3>
                                     <h5>Titolo originale: {{ $movieElement -> original_title }}</h5>
