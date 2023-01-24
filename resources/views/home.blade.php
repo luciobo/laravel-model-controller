@@ -6,7 +6,7 @@
         <div class="container py-5">
             <div class="row g-4">
                 @foreach ($movie as $movieElement)
-                    <div class="col-2">
+                    <div class="col-3">
                         <div class="card bg-dark text-light">
                             <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
                             <div class="card-body p-0 py-3">
